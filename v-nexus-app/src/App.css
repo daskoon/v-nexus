@@ -1,0 +1,43 @@
+.nexus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.status {
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff88;
+  margin: 1rem 0;
+}
+
+.drives {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ff0055;
+  width: 100%;
+  max-width: 400px;
+}
+
+.drives h3 {
+  margin-top: 0;
+  color: #ff0055;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.drives ul {
+  list-style: none;
+  padding: 0;
+}
+
+.drives li {
+  margin: 0.5rem 0;
+  color: #ccc;
+}
+
+.drives strong {
+  color: #fff;
+}
